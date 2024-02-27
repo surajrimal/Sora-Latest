@@ -1,7 +1,7 @@
 # Flask News App
 A web application is built using Python framework (Flask) and NEWS API. The app displays information about news articles from popular sources, top headlines around the world, provides new categories and the various sources available.
 
-![](https://github.com/steve-njuguna-k/Flask-News-App/blob/master/app/static/assets/img/screenshot.PNG)
+![](https://github.com/surajrimal/Sora-Latest/blob/main/app/static/assets/img/screenshot.PNG)
 
 ## Requirements
 The user can perform the following functions:
