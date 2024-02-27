@@ -1,5 +1,5 @@
 # Flask News App
-A web application is built using Python framework (Flask) and NEWS API. The app displays information about news articles from popular sources, top headlines around the world, provides new categories and the various sources available.
+A web application is built using Python framework (Flask) and NEWS API. The app displays information about Sora news articles from popular sources, top headlines around the world, and provides new categories and the various sources available.
 
 ![](https://github.com/surajrimal/Sora-Latest/blob/main/app/static/assets/img/screenshot.PNG)
 
@@ -23,19 +23,19 @@ The application requires the following installations to operate:
 ## Project Setup Instructions
 1) Git clone the repository 
 ```
-https://github.com/steve-njuguna-k/Flask-News-App.git
+https://github.com/surajrimal/Sora-Latest.git
 ```
 2. cd into Flask-News-App
 ```
-cd Flask-News-App
+cd Sora Latest
 ```
 3. create a virtual env
 ```
-py -m venv env
+python3 -m venv .venv
 ```
-4. activate env
+4. activate .venv
 ```
-env\scripts\activate
+source env\scripts\activate
 ```
 5. Open CMD & Install Dependancies
 ```
@@ -49,9 +49,5 @@ main.py
 ## Known Bugs
 - There are no known bugs currently but pull requests are allowed incase you spot a bug
 
-## Contact Information
-If you have any question or contributions, please find me on [LinkedIn](https://www.linkedin.com/in/steve-njuguna-aa426096/)
-
-© 2021 Steve Njuguna
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
