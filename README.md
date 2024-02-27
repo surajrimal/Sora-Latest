@@ -25,7 +25,7 @@ The application requires the following installations to operate:
 ```
 https://github.com/surajrimal/Sora-Latest.git
 ```
-2. cd into Flask-News-App
+2. cd into Sora Latest
 ```
 cd Sora Latest
 ```
