@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Discover the latest advancements and trends in artificial intelligence (AI) Sora videos on our platform. Stay informed with real-time updates, insightful analyses, and exclusive interviews, all curated to keep you at the forefront of innovation."/>
+    <!-- Favicons -->
+    <link href="{{ url_for('static', filename='/favicon.ico') }}" rel="icon">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overpass">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}">
+    <title>Sora Latest</title>
+</head>
+<body>
+
+    {% block navbar %}
+
+    <div class="container-fluid" style="background-color: #000;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+
+            <!--  Show this only on mobile to medium screens  -->
+              <a class="navbar-brand d-lg-none" href="{{ url_for('home') }}"><b class="lg"><span class="logo">Sora</span> Latest</b></a>
+            
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+            <!--  Use flexbox utility classes to change how the child elements are justified  -->
+              <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+            
+                
+                
+                
+            <!--   Show this only lg screens and up   -->
+                <a class="navbar-brand d-none d-lg-block" href="{{ url_for('home') }}"><b class="lg"><span class="logo">Sora</span> Latest</b></a>
+                <p>Explore the Sora news with our curated collection of the freshest news and insights, delivering innovation right to your fingertips.</p>
+                
+                
+            </div>
+        </nav>
+    </div>
+
+    {% endblock %}
+
+    {% block content %}
+
+    {% endblock %}
+
+    {% block footer %}
+
+    <div class="container-fluid footer">
+        <p class="text-center footer-text">
+            © <span class="logo">Sora</span> Latest By SRC
+        </p>
+    </div>
+
+    {% endblock %}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
